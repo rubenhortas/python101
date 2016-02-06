@@ -13,7 +13,8 @@
 Ejemplo de clase en python
 """
 
-class SuperHeroe():
+
+class SuperHeroe:
     nombre = None
     batmovil_disponible = True
     batcoptero_disponible = False
@@ -35,8 +36,10 @@ class SuperHeroe():
             else:
                 print "A batpatas!"
 
-    def __identidad_secreta(self):
+    @staticmethod
+    def __identidad_secreta():
         print 'Soy Bruce Wayne :('
+
 
 if __name__ == '__main__':
     mi_batman = SuperHeroe()

@@ -14,6 +14,7 @@ Ejemplo de tipado dinámico.
 Una variable puede tomar distintos valores en distintos momentos.
 """
 
+
 def tipado_dinamico():
     # Inicializamos la variable
     x = None
@@ -31,6 +32,7 @@ def tipado_dinamico():
     # *NO* se puede hacer:
     # x = "uno" + 2
     # TypeError: cannot concatenate 'str' and 'int' objects
+
 
 if __name__ == '__main__':
     tipado_dinamico()

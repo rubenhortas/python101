@@ -13,12 +13,15 @@
 Ejemplo de uso de funciones
 """
 
+
 def hola_mundo():
     print 'hola mundo'
+
 
 # En python una funcion puede devolver varios valores
 def devuelve_valores():
     return 1, 3
+
 
 # Funciones con número variable de parámetros
 def parametros_variables(argumento1, argumento2, *varios):
@@ -27,6 +30,7 @@ def parametros_variables(argumento1, argumento2, *varios):
     print 'Argumentos:'
     for argumento in varios:
         print argumento
+
 
 # Funciones con número variable de parámetros *con nombre*
 def kwargs(argumento1, argumento2, **varios):
@@ -37,11 +41,12 @@ def kwargs(argumento1, argumento2, **varios):
     for item in varios.items():
         print item
 
+
 if __name__ == '__main__':
     hola_mundo()
 
-    x,y = devuelve_valores()
-    print 'x vale %s, y vale %s' % (x,y)
+    x, y = devuelve_valores()
+    print 'x vale %s, y vale %s' % (x, y)
 
     parametros_variables(1, 2, 3)
     parametros_variables(1, 2, 100, 200, 300)
