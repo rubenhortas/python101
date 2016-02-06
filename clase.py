@@ -47,4 +47,5 @@ if __name__ == '__main__':
     mi_batman.conducir()
 
     # Name mangling para acceder a métodos "privados"
+    # noinspection PyProtectedMember,PyUnresolvedReferences
     mi_batman._SuperHeroe__identidad_secreta()

@@ -14,11 +14,13 @@ Python no se responsabiliza de tus actos.
 """
 
 # Definimos esto y lo subimos al control de versiones
+# noinspection PyShadowingBuiltins
 True = False
 
 if __name__ == '__main__':
 
     # Esperamos por las risas
+    # noinspection PySimplifyBooleanCheck,PyPep8
     if True == False:
         print 'WTF? AYFKM?'
 
