@@ -24,7 +24,7 @@ def devuelve_valores():
 
 
 # Funciones con número variable de parámetros
-# noinspection PyUnusedLocal,PyUnusedLocal
+# noinspection PyUnusedLocal
 def parametros_variables(argumento1, argumento2, *varios):
     # Los parámetros *varios serán una tupla
     print 'Tupla de parámetros:', varios
@@ -34,7 +34,7 @@ def parametros_variables(argumento1, argumento2, *varios):
 
 
 # Funciones con número variable de parámetros *con nombre*
-# noinspection PyUnusedLocal,PyUnusedLocal
+# noinspection PyUnusedLocal
 def kwargs(argumento1, argumento2, **varios):
     # Los parámetros **varios será un diccionario
     # y serán identificados por su nombre (o clave)
